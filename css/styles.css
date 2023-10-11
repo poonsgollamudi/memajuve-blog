@@ -1,0 +1,92 @@
+.nav-color {
+  background-color: #219c90 !important;
+}
+
+.bg-color-1 {
+  background: #ee9322 !important;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.bg-body-color {
+  background: #e9b824 !important;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.container__about {
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 100vh;
+}
+.carousel-inner {
+  width: 90% !important;
+}
+.seasons {
+  width: 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption__nodisplay {
+    display: none;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .checkbox-inline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+}
+.card-body {
+  background: #d83f31 !important;
+}
+.carousel__photos {
+  margin-top: 20px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+}
+.album_heading {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.center3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 25%;
+  height: 25%;
+}
+.gallery {
+  margin-top: 50px;
+}
